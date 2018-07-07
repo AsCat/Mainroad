@@ -1,5 +1,5 @@
 {{ if .Param "toc" }}
-<div class="post__toc toc">
+<div id="post-toc" class="post__toc toc" style="position: absolute; top: 195px; width: 200px; margin-left: -240px">
 	<div class="toc__title">{{ T "toc_title" }}</div>
 	<div class="toc__menu">
 		{{ .TableOfContents }}
